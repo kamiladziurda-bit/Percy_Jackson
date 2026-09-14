@@ -1,0 +1,29 @@
+{
+  "group_id": "3449789c-ca4e-43b1-b838-e7dcb9bf41ac",
+  "objects": [
+    {
+      "id": "39a17826-ba40-4def-800d-2c8bb78a6a03",
+      "name": "base",
+      "prompt": "tsunami attack",
+      "size": {
+        "width": 34,
+        "height": 34
+      },
+      "directions": 8,
+      "view": "low top-down",
+      "rotations": {
+        "south": "rotations/south.png",
+        "south-east": "rotations/south-east.png",
+        "east": "rotations/east.png",
+        "north-east": "rotations/north-east.png",
+        "north": "rotations/north.png",
+        "north-west": "rotations/north-west.png",
+        "west": "rotations/west.png",
+        "south-west": "rotations/south-west.png"
+      },
+      "animations": {}
+    }
+  ],
+  "export_version": "1.1",
+  "export_date": "2026-08-27T10:42:58.939904"
+}
