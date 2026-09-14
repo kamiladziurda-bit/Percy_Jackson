@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Ładowanie silnika Pythona dla przeglądarki -->
+    <meta charset="utf-8">
+    <title>Moja Gra CodeHS</title>
+    <!-- Ładowanie silnika Brython dla Pythona w przeglądarce -->
     <script type="text/javascript" src="https://static1.codehs.com/lib/brython/brython-3-11-1.js"></script>
     <script type="text/javascript" src="https://static1.codehs.com/lib/brython/brython-stdlib-3-11-1.js"></script>
+    <style>
+        body { text-align: center; background-color: #222; color: white; font-family: sans-serif; }
+        canvas { border: 2px solid white; background: black; display: block; margin: 20px auto; }
+    </style>
 </head>
 <body onload="brython()">
+    <h1>Moja Własna Gra! 🎮</h1>
+    <p>Gra ładuje się automatycznie poniżej...</p>
+    
+    <!-- Element w którym wyświetli się grafika z CodeHS -->
+    <canvas id="codehs-canvas" width="400" height="480"></canvas>
+
+    <!-- Uruchomienie Twojego pliku z grą -->
     <script type="text/python" src="main.py"></script>
 </body>
 </html>
